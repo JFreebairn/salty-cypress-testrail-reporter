@@ -20,5 +20,5 @@ export enum Status {
 export interface TestRailResult {
   case_id: number;
   status_id: Status;
-  comment?: String;
+  comment?: string;
 }
